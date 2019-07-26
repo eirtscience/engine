@@ -1,6 +1,4 @@
 language: python
 
-python:
-        - "stable"
 script:
        python run_test.py 
