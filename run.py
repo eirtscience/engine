@@ -1,5 +1,5 @@
 
 
 def run_script():
-    return False
+    return True
 
