@@ -6,6 +6,9 @@ class RunTest(unittest.TestCase):
     def test_run_script(self):
         self.assertTrue(run.run_script(),True)
 
+    def test_calculate(self):
+        self.assertEqual(run.calculate(3,6),7)
+
 
 
 
