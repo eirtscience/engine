@@ -1,4 +1,10 @@
 language: python
 
 script:
-       python run_test.py 
+    python run_test.py 
+
+notification:
+    email:
+        recipients:
+            - malevae@gmail.com
+        on_success: always
