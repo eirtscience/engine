@@ -1,10 +1,10 @@
 language: python
-
-script:
-    python run_test.py 
-
+script: python run_test.py
 notification:
-    email:
-        recipients:
-            - malevae@gmail.com
-        on_success: always
+  email:
+    recipients:
+    - malevae@gmail.com
+    on_success: always
+env:
+  global:
+    secure: qKy8cDvCtcr/KZ+mz6VEYJSsoe474KuyUXqRBgF4KehSbAQ73uAb8USAaChufXt9N+84jI5Qjx2xHnKAxNMWVG/il0x0DueWxH/m5+uE6Y7WbJztW13dr2/f70WKP7GnkxpRSTpyIs/RGk/ujHGI6HUePGRA9ayu91Ud3hOxHtKTVbwsbXD+4vIYylujAh1OBNrS2q903Edop5kl6dQyqQFhcZ1ij7A+S936xGsPAgubxvlC3bLUaYDRh3iVNDpVyIVh7P7SsjC2ztkZ2LfeSuaPRCme7dWy4nVBRHtf2OOcnFfrEHLrIVxfMsfIQPTrETrWOqAmKOxGewN0xXQZMTyxn2FKh6BqFEzZg2Gh0tW7R9zZO4wg5NH3TPqc8LMXvH21RiOYMTMvP+LwnpwsSuy7lNUTBQl2+fkQ7T+LJdUJkgOXDOrkk3ns+ckdAhKa5hgeBGmmnBx0kFBvUDLDX7jNHDn6Wcq4bFBq1gyoip9C7brEUkwfnSDwBaWkEodY06V6tvBVDuYicDETB0J08JRnOIJxMcQymCMp46g3V1upADrFBP1KLNChEKX2XvhDDQ6wVzBz1zn4Tun8FY6jV+VAlE0m3++brXUlLxSBLYabxLGUWGSEbxBpwb3JPA75Nt1yZunYZWxl5YvKGsyca+0aqyjhErsReoWW/3nFjW4=
