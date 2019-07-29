@@ -1,12 +1,18 @@
 language: python
 script: python run_test.py
-notification:
+notifications:
   email:
     recipients:
-        - malevae@gmail.com
+    - malevae@gmail.com
     on_success: always
     on_failure: always
-
 env:
   global:
     secure: qKy8cDvCtcr/KZ+mz6VEYJSsoe474KuyUXqRBgF4KehSbAQ73uAb8USAaChufXt9N+84jI5Qjx2xHnKAxNMWVG/il0x0DueWxH/m5+uE6Y7WbJztW13dr2/f70WKP7GnkxpRSTpyIs/RGk/ujHGI6HUePGRA9ayu91Ud3hOxHtKTVbwsbXD+4vIYylujAh1OBNrS2q903Edop5kl6dQyqQFhcZ1ij7A+S936xGsPAgubxvlC3bLUaYDRh3iVNDpVyIVh7P7SsjC2ztkZ2LfeSuaPRCme7dWy4nVBRHtf2OOcnFfrEHLrIVxfMsfIQPTrETrWOqAmKOxGewN0xXQZMTyxn2FKh6BqFEzZg2Gh0tW7R9zZO4wg5NH3TPqc8LMXvH21RiOYMTMvP+LwnpwsSuy7lNUTBQl2+fkQ7T+LJdUJkgOXDOrkk3ns+ckdAhKa5hgeBGmmnBx0kFBvUDLDX7jNHDn6Wcq4bFBq1gyoip9C7brEUkwfnSDwBaWkEodY06V6tvBVDuYicDETB0J08JRnOIJxMcQymCMp46g3V1upADrFBP1KLNChEKX2XvhDDQ6wVzBz1zn4Tun8FY6jV+VAlE0m3++brXUlLxSBLYabxLGUWGSEbxBpwb3JPA75Nt1yZunYZWxl5YvKGsyca+0aqyjhErsReoWW/3nFjW4=
+noifications:
+  slack:
+    rooms:
+      secure: Hz6i/WFNax4APnxKnYrW5GajW7lgn10iSkpqZDFw1NFk94mfzrQFDOVQrUV2YszzUPtEQnH1PwQ25ZJFcpQVYLd7QYHwn4+uRTjxvx2pOtnhkW387ht79b4wPEmQV18GqdetvuW8LWuHKx2X/yUbVUjX2UH/kAiW3z59qk/Ievx7KeAnGktUBLjX1mq1qyk/MOp8OBwGjOApdQIGzFr3J6zfAuohdbNIeLVdQQyzjyoZwF+uu4reI4SnJR2+AIW3ZyVtvCu517WxOnPOVV7I3MCCMcGm5aJONPilMGrkNRfy9fDApzxfbrUFEZ/hN+aFvZsIItXFQcb40CPTaWcr9Cuw6zqOPisQBbjrRstBvjlqvGVy2jm127Mh7UTkRcZt5jgYR35MNCFUxShjo6JoIMtAXG0jLTLaxCNl4q+FFsnaAd7oDVEQJ7c3LBd5QV69F4NQEP+iYVL6Fdv8n7rqACrR84jm7HusmMLllUTtq8MroqS32WnASEnS/Jlrcy7K7UcwnYMsYJqdusL7ioVP2w7+OVoNVi1UpN/e/L6YBVybht9nw9+d8JqXJ9ebbcY7tjIa77HBM+LkDfk0gAUOH6WMF+7VUuuFPUCsJjcMk7ok5jucto84T9DDr0RCGAViXkur1JbNftB/tuJojajj2HJSA2PcqZM0bxiq4rNwkzM=
+
+    on_success: change
+    on_failure: always
