@@ -10,9 +10,3 @@ notifications:
 
     on_success: always
     on_failure: always
-
-   email:
-       recipients: 
-           - malevae@gmail.com
-       on_success: always
-       on_failure: always
